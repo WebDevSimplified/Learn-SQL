@@ -1,5 +1,5 @@
 SELECT
-	bands.name AS 'Band',
+  bands.name AS 'Band',
   COUNT(songs.id) AS 'Number of Songs'
 FROM bands
 JOIN albums ON bands.id = albums.band_id

@@ -1,5 +1,5 @@
 SELECT
-	albums.name as Name,
+  albums.name as Name,
   albums.release_year as 'Release Year',
   SUM(songs.length) as 'Duration'
 FROM albums

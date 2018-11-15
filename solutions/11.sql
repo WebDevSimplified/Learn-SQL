@@ -1,5 +1,5 @@
 SELECT
-	albums.name AS 'Album',
+  albums.name AS 'Album',
   albums.release_year AS 'Release Year',
   MAX(songs.length) AS 'Duration'
 FROM albums

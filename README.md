@@ -23,7 +23,6 @@ This table should be called `songs` and have four properties with these exact na
 After successfully creating the table copy the code from [data.sql](data.sql) into MySQL Workbench, and run it to populate all of the data for the rest of the exercises. If you do not encounter any errors, then your answer is most likely correct.
 
 ### 2. Select only the Names of all the Bands
-[Results](results/2.txt)  
 [Solution](solutions/2.sql)
 
 Change the name of the column the data returns to `Band Name`
@@ -100,19 +99,19 @@ If you performed this correctly you should be able to now see that band and albu
 ### 9. Delete the Band and Album you added in #8
 [Solution](solutions/9.sql)
 
-The order of how you delete the record is important since album has a foreign key to band.
+The order of how you delete the records is important since album has a foreign key to band.
 
 ### 10. Get the Average Length of all Songs
 [Solution](solutions/10.sql)
 
 Return the average length as `Average Song Duration`.
 
-| Average Song Length | 
-|---------------------| 
-| 5.352472513259112   | 
+| Average Song Duration | 
+|-----------------------| 
+| 5.352472513259112     | 
 
 
-### 11. Select the longest Song Length of each Album
+### 11. Select the longest Song off each Album
 [Solution](solutions/11.sql)
 
 Return the album name as `Album`, the album release year as `Release Year`, and the longest song length as `Duration`.
@@ -138,10 +137,10 @@ Return the album name as `Album`, the album release year as `Release Year`, and 
 | Break the Silence           | 2011         | 6.15     | 
 | Tribe of Force              | 2010         | 8.38333  | 
 
-### 11. Get the number of Songs for each Band
+### 12. Get the number of Songs for each Band
 [Solution](solutions/12.sql)
 
-This is the toughest question on the list. It will require you to chain together two joins instead of just one.
+This is one of the toughest question on the list. It will require you to chain together two joins instead of just one.
 
 Return the band name as `Band`, the number of songs as `Number of Songs`.
 
