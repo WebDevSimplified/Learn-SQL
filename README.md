@@ -3,7 +3,7 @@ If you haven't already make sure you watch [this video](https://youtu.be/p3qvj9h
 
 After watching the video try to complete the exercises listed below using the data provided in this repository.
 
-All of the solutions are available in the repository, and in one week I will be posting a video of me solving and explaining the solutions for each exercise, which I will link here when it is complete.
+All of the solutions are available in the repository, and [this video](https://youtu.be/30W5wjgJR08) goes over all of the solutions.
 
 ## Setup
 First drop your existing database that was created in the tutorial. `DROP DATABASE record_company;`
