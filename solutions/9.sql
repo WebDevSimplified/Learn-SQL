@@ -7,6 +7,7 @@
 /*
 DELETE FROM albums
 WHERE id = 19;
+*/
 
 /* This is the query used to get the band id of the band added in #8 */
 /*
@@ -14,6 +15,7 @@ WHERE id = 19;
   ORDER BY id DESC LIMIT 1;
 */
 
+/*
 DELETE FROM bands
 WHERE id = 8;
 */
