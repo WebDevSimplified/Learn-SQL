@@ -1,17 +1,11 @@
-/* This is the query used to get the album id of the album added in #8 */
-/*
-  SELECT id FROM albums
-  ORDER BY id DESC LIMIT 1;
-*/
-
 DELETE FROM albums
-WHERE id = 19;
+WHERE albums.band_id
+IN (SELECT id FROM bands WHERE name = 'SSSPSN');
 
-/* This is the query used to get the band id of the band added in #8 */
-/*
-  SELECT id FROM bands
-  ORDER BY id DESC LIMIT 1;
-*/
+SELECT * FROM albums;
+
 
 DELETE FROM bands
-WHERE id = 8;
+WHERE id IN (SELECT * FROM (SELECT id FROM bands WHERE name = 'SSSPSN') AS to_delete);
+
+SELECT * FROM bands;
